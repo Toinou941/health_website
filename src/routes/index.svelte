@@ -10,7 +10,7 @@
 		<div
 		href="#video"class="relative z-30 p-5 text-2xl text-blue-500 bg-green-500 bg-opacity-80 rounded-xl"
 		>
-		  Welcome to Healthcare + !
+		  Welcome to Healthcare !
 		</div>
 		<video
 		  autoplay
@@ -28,11 +28,13 @@
 	<!-- big hero landing page-->
 <section class="min-h-screen bg-blue-100 p-32 text-center" style="background-image: url('https://images.unsplash.com/photo-1472983131032-23a243d662eb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80'); background-size: cover">
 
-		<h1 class="text-5xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-green-500">Learn more about our mission</h1>
+		<h1 class="pb-6 text-5xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-green-500">Learn more about our mission</h1>
 	  
 	  	<!-- svelte-ignore a11y-media-has-caption -->
-		<video id="video" controls class="pb-8 max-w left-6 border-collapse"  src="video.mp4"></video>
-		<div class="space-x-2">
+		<div class="items-center inline-flex">
+		  <iframe width="550" height="280" src="https://www.youtube.com/embed/AllwTaOr_yw" title="Patient Reported Outcome Measures" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<div class="space-x-2 py-16  bottom-0">
 		  <a href="#more" class="py-3 px-8 pt-4 text-blue-500 hover:text-blue-400 bg-white hover:bg-gray-200 mr-2  rounded-lg hover:shadow-xl transition duration-300">Learn More</a>
 		  <a href="/register" class="py-3 px-8 pt-4 text-blue-500 hover:text-blue-400 bg-white hover:bg-gray-200 mr-2  rounded-lg hover:shadow-xl transition duration-300">Sign up</a>
 		</div>

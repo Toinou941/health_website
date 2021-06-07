@@ -11,7 +11,7 @@
 			<div class="flex space-x-12">
 				<!-- logo-->
 				<div>
-					<a href=/ class="flex items-center py-3 px-2">
+					<a href=./ class="flex items-center py-3 px-2">
 						<div class="h-12 w-12 mr-2">
 							<img src="src\lib\Header\Heart.svg" alt="logo" />
 						</div>

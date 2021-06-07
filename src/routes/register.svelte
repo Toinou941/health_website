@@ -11,16 +11,19 @@
       <form class="space-y-5">
   
         <div>
+          <!-- svelte-ignore a11y-label-has-associated-control -->
           <label class="block mb-1 font-bold text-gray-500">Name</label>
           <input type="text" class="w-full border-2 border-gray-200 p-3 rounded outline-none focus:border-purple-500">
         </div>
   
         <div>
+          <!-- svelte-ignore a11y-label-has-associated-control -->
           <label class="block mb-1 font-bold text-gray-500">Email</label>
           <input type="email" class="w-full border-2 border-gray-200 p-3 rounded outline-none focus:border-purple-500">
         </div>
   
         <div>
+          <!-- svelte-ignore a11y-label-has-associated-control -->
           <label class="block mb-1 font-bold text-gray-500">Password</label>
           <input type="password" class="w-full border-2 border-gray-200 p-3 rounded outline-none focus:border-purple-500">
         </div>

@@ -1,19 +1,14 @@
 <script>
-	import Header from '$lib/Header/index.svelte';
-	import '../app.postcss';
-	
+	import './app.css';
+	import Navbar from '../components/navbar.svelte';
+  	export let name;
 </script>
 
-<Header />
-
-<main>
-	<slot />
-</main>
-
+<slot />
 <footer>
 	<div class="mx-auto container flex flex-col items-center justify-center">
 		<div>
-			<img class="bg-black fill-current" width="95" height="100" src="src\routes\Components\healthcare white.svg" alt="logo" />
+			<img class="bg-black fill-current" width="95" height="100" src="src\components\healthcare white.svg" alt="logo" />
 		</div>
 		<div class="text-black flex flex-col md:items-center f-f-l pt-3">
 			<div class="md:flex items-center mt-5 md:mt-10 text-base text-color f-f-l">
@@ -22,8 +17,7 @@
 			</div>
 			<div class="my-6 text-base text-color f-f-l">
 				<ul class="md:flex items-center">
-					<li href=/about class="md:mr-6 cursor-pointer pt-4 lg:py-0">About</li>
-					<li class="md:mr-6 cursor-pointer pt-4 lg:py-0">Features</li>
+					<li href="src\routes\about.svelte" class="md:mr-6 cursor-pointer pt-4 lg:py-0">About</li>
 					<li class="md:mr-6 cursor-pointer pt-4 lg:py-0">Careers</li>
 					<li class="md:mr-6 cursor-pointer pt-4 lg:py-0">Help</li>
 					<li class="cursor-pointer pt-4 lg:py-0">Privacy Policy</li>
@@ -221,3 +215,5 @@
 		</div>
 	</div>
 </footer>
+
+

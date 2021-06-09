@@ -17,13 +17,9 @@ module.exports = {
 		safelist: [/^svelte-[\d\w]+$/],
 	},
 	theme: {
-		extend: {backgroundImage: theme => ({
-
-			'hero-pattern': "url('/img/hero-pattern.svg')",
-   
-			'footer-texture': "url('/img/footer-texture.png')",
-		   })},
-	},
+		extend: {
+		  },
+		},
 	variants: {
 		extend: {},
 	},
